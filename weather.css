@@ -1,0 +1,32 @@
+body {
+    background-color: darkslateblue;
+    color: black;
+    font-family: Brush Script MT,cursive;
+}
+h1 {
+    margin-bottom: 50px;
+}
+footer {
+    margin-top: 50px;
+}
+.message {
+    font-size: 20px;
+}
+.temp {
+    font-size: 20px;
+}
+.conditions {
+    font-size: 24px;
+    font-weight: bold;
+}
+img {
+    max-height: 200px;
+    max-width: auto;
+}
+Button {
+    background: darkslateblue;
+    border-color: #000;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}

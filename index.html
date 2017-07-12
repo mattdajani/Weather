@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather Application</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="weatherScript.js"></script>
+        <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="weather.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row text-center">
+                <h1>Local Weather App</h1>
+            </div>
+            <div class="row text-center">
+                <span class="message">Current Location</span>
+            </div>
+            <div class="row text-center">
+                <span class="temp">0.0</span>
+                <span class="deg">&deg;</span><span id="toggle-temp">F</span>
+            </div>
+            <div class="row text-center">
+            <button class="toggle-temp-button">Convert</button>
+            </div>
+            <div class="row text-center">
+                <span class="conditions">Current Condition</span>
+            </div>
+            <div class="row">
+                <span class="icon"><img class="img-responsive center-block" src="Images/unknown.png"></span>
+            </div>
+            <div class="row">    
+            <footer class="bottom-footer"><p class="text-center">Created by Matthew Dajani.</p></footer>
+            </div>
+        </div>
+    </body>
+</html>
