@@ -1,4 +1,5 @@
 var locationArray = [];
+var apiKey = "removed for Github";
 
 if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(success, error);
@@ -22,7 +23,7 @@ else{
 
 function startLoad(){
     $.ajax({
-            url : "https://api.wunderground.com/api/69acbaf599346e32/geolookup/conditions/q/" + locationArray[0] + "," + locationArray[1] + ".json",
+            url : "https://api.wunderground.com/api/" + apiKey + "/geolookup/conditions/q/" + locationArray[0] + "," + locationArray[1] + ".json",
             dataType : "jsonp",
             success : function(parsed_json) {
             var location = parsed_json.location.city;
