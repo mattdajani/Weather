@@ -1,3 +1,6 @@
+// Show local weather status
+// Using Wunderground API with JQuery
+
 var locationArray = [];
 var apiKey = "removed for Github";
 
